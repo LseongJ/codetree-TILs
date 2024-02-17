@@ -8,3 +8,12 @@ if (a > b):
             print(c)
         else:
             print(a)
+
+else:
+    if(a < c):
+        if (b < c):
+            print(b)
+        else:
+            print(c)
+    else:
+        print(a)
