@@ -1,5 +1,6 @@
 a, b = map(int, input().split())
 
-for i in range(b):
-    if (9 >= a > 0):
+
+if (a > 0):
+    for i in range(b):
         print(a, end='')
