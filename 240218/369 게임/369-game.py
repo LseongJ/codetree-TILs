@@ -5,11 +5,16 @@ for i in range(1, n+1):
     if (i == 1 or i == 2):
         print(i, end=" ")
 
-    elif (i % 3 == 0) or (i % 3 == 1) or (i % 3 == 2) or (i // 10 == 3):
-        print(0, end=" ")
+    elif (3 <= i < 10):
+        if (i % 3 == 0):
+            print(0, end=' ')
+    
+    elif (i >= 10):
+        if (i % 3 == 0):
+            print(0, end=" ")
+        else:
+            print(i, end=" ")
 
-    else:
-        print(i, end=" ")
 
 
 
