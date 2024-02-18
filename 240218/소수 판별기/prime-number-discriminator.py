@@ -1,7 +1,7 @@
 n = int(input())
 ans = False
 
-for i in range(2, n):
+for i in range(2, n+1):
     if (n % i == 0):
         ans = True
         break
