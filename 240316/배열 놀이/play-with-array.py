@@ -17,5 +17,5 @@ for i in range(q): # 질의 q회 반복
     a = quest[1]
 		b = quest[2]
 		for i in range(a - 1, b):
-			print(arr[i], end=" ")
+			print(n_elem[i], end=" ")
 		print()
