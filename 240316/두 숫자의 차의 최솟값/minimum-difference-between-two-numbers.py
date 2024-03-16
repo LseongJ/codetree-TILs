@@ -16,12 +16,13 @@ for i in range(n):
 
 min_value = sys.maxsize
 
-for k in range(n):
+
+for k in range(len(minus_arr)):
   if minus_arr[k] < min_value:
     min_value = minus_arr[k]
-    
+
 print(min_value)
 
 
-# 5
-# 3 6 7 10 43
+# 9
+# 77 18 29 3 1 1 81 43 52
