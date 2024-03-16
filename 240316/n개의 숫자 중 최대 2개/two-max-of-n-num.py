@@ -12,7 +12,7 @@ while len(arr) > 0:
   ans.append(max_val)
   
   arr.remove(max_val)
-  max_val = 0
+  max_val = -sys.maxsize
   
 
 print(ans[0], ans[1])
