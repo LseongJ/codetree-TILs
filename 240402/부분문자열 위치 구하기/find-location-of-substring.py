@@ -13,5 +13,5 @@ for i in range(w - o + 1):
         print(i)  # 첫 번째로 등장하는 위치를 출력
         break
 
-if exist = False:
+if exist == False:
     print(-1)
